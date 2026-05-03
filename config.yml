@@ -12,9 +12,6 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
         - name: Papers
           url: papers/
           weight: 2
@@ -24,14 +21,10 @@ menu:
         - name: Data
           url: data/
           weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
 
 params:
     description: "PhD Student in Economics"
     author: Tobias Geisler
-    # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -44,7 +37,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["courses","papers","data"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,7 +47,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
+          title: Tobias Geisler
           subtitle: "PhD student in Economics at TU Dresden, Germany. My research focuses on central banks, financial stability, and asset pricing."
           imageUrl: "picture.jpeg"
           imageWidth: 160
@@ -64,40 +57,16 @@ params:
               url: papers/
             - name: Data
               url: data/
-            - name: Books
-              url: books/
             - name: Courses
               url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
+        - name: Email
+          url: mailto:tobias.geisler@mailbox.tu-dresden.de
         #- name: CV
         #  url: cv.pdf
-        #- name: Email
-        #  url: mailto:igelfeld@regensburg.edu
-        #- name: Zoom
-        #  url: https://www.zoom.us/my/igelfeld
-        #- name: Location
-        #  url: location/
-        #- name: Office Hours
-        #  url: officehours/
         #- name: Google Scholar
-        #  url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        #- name: GitHub
-        #  url: https://github.com/pmichaillat
-        #- name: Substack
-        #  url: https://pmichaillat.substack.com
-        #- name: YouTube
-        #  url: https://www.youtube.com/@pmichaillat
-        #- name: Twitter
-        #  url: https://x.com/pmichaillat
-        #- name: Bluesky
-        #  url: https://bsky.app/profile/pmichaillat.bsky.social
+        #  url: https://scholar.google.com/citations?user=XXXXX
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +74,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Tobias Geisler"
       icon: favicon.ico
       iconHeight: 18
 
